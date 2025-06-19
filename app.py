@@ -4,6 +4,9 @@ import streamlit as st
 import requests
 import pandas as pd
 import gzip
+from pandas import Index
+
+
 
 st.title("MovieRS")
 st.header("Movie Recommendation System using Streamlit")
